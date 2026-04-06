@@ -1,0 +1,4326 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-04-06T22:15:20Z",
+  "repository": "mobilityscout/systemai-complete",
+  "base_path": "aicore/",
+  "statistics": {
+    "total_fragments": 227,
+    "total_lines": 12947,
+    "total_categories": 9,
+    "categories": {
+      "intelligence": 14,
+      "misc": 80,
+      "managers": 17,
+      "engines": 30,
+      "workers": 8,
+      "api": 7,
+      "healers": 35,
+      "core": 35,
+      "memory": 1
+    },
+    "top_modules": [
+      {
+        "name": "ai_developer_brain.py",
+        "lines": 528
+      },
+      {
+        "name": "enterprise_control_plane.py",
+        "lines": 501
+      },
+      {
+        "name": "intelligent_conversation_engine.py",
+        "lines": 476
+      },
+      {
+        "name": "developer_chat_ui.py",
+        "lines": 321
+      },
+      {
+        "name": "smart_chat_engine.py",
+        "lines": 313
+      },
+      {
+        "name": "principle_brain.py",
+        "lines": 303
+      },
+      {
+        "name": "chat_assistant.py",
+        "lines": 275
+      },
+      {
+        "name": "developer_chat_backend.py",
+        "lines": 234
+      },
+      {
+        "name": "state_core_engine.py",
+        "lines": 206
+      },
+      {
+        "name": "ai_manager.py",
+        "lines": 191
+      }
+    ]
+  },
+  "fragments": [
+    {
+      "id": "ai_developer_brain",
+      "name": "ai_developer_brain",
+      "file": "ai_developer_brain.py",
+      "path": "ai_developer_brain.py",
+      "subdirectory": ".",
+      "category": "intelligence",
+      "line_count": 528,
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "pathlib",
+        "subprocess",
+        "typing",
+        "uuid"
+      ],
+      "classes": [
+        "AIDevTask",
+        "AIDevAnalyzer",
+        "AIDevSolver",
+        "AIDevExecutor",
+        "AIDevBrain"
+      ],
+      "functions": [],
+      "docstring": "AI DEVELOPER BRAIN\nSelf-Engineering, Problem-Solving, Task Management\nF\u00fchrt Gespr\u00e4che mit System AI \u00fcber Optionen"
+    },
+    {
+      "id": "ai_external",
+      "name": "ai_external",
+      "file": "ai_external.py",
+      "path": "ai_external.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 94,
+      "imports": [
+        "flask",
+        "hashlib",
+        "requests",
+        "sqlite3",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "init_cache",
+        "get_cache",
+        "set_cache",
+        "ask"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "ai_internal",
+      "name": "ai_internal",
+      "file": "ai_internal.py",
+      "path": "ai_internal.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 109,
+      "imports": [
+        "flask",
+        "hashlib",
+        "requests",
+        "sqlite3",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "init_cache",
+        "get_cache",
+        "set_cache",
+        "ask"
+      ],
+      "docstring": "INTERNAL AI - ULTRA FAST\nAggressive optimization for speed"
+    },
+    {
+      "id": "ai_manager",
+      "name": "ai_manager",
+      "file": "ai_manager.py",
+      "path": "ai_manager.py",
+      "subdirectory": ".",
+      "category": "managers",
+      "line_count": 76,
+      "imports": [
+        "autonomy_engine",
+        "dependency_engine",
+        "json",
+        "os",
+        "planner_engine"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "get_goal",
+        "goal_done",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "ai_trainer",
+      "name": "ai_trainer",
+      "file": "ai_trainer.py",
+      "path": "ai_trainer.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 93,
+      "imports": [
+        "datetime",
+        "json",
+        "sqlite3"
+      ],
+      "classes": [],
+      "functions": [
+        "init_knowledge_db",
+        "add_knowledge",
+        "get_knowledge",
+        "train_from_file"
+      ],
+      "docstring": "AI TRAINER - Learn from examples\nFeed your AI with custom knowledge"
+    },
+    {
+      "id": "autonomy_engine",
+      "name": "autonomy_engine",
+      "file": "autonomy_engine.py",
+      "path": "autonomy_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 26,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "evaluate"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "brain",
+      "name": "brain",
+      "file": "brain.py",
+      "path": "brain.py",
+      "subdirectory": ".",
+      "category": "intelligence",
+      "line_count": 77,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "interpret",
+        "think",
+        "plan",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "compare_engine",
+      "name": "compare_engine",
+      "file": "compare_engine.py",
+      "path": "compare_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 74,
+      "imports": [
+        "os",
+        "reason_engine",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [
+        "run_file",
+        "score",
+        "compare"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "dependency_engine",
+      "name": "dependency_engine",
+      "file": "dependency_engine.py",
+      "path": "dependency_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 33,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "build_plan"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "developer_chat_backend",
+      "name": "developer_chat_backend",
+      "file": "developer_chat_backend.py",
+      "path": "developer_chat_backend.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 234,
+      "imports": [
+        "datetime",
+        "flask",
+        "json",
+        "os",
+        "sqlite3",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [
+        "load_memory",
+        "get_system_status",
+        "check_services",
+        "execute_command",
+        "build_customer_solution",
+        "get_system_logs",
+        "list_knowledge_bases",
+        "get_worker_status",
+        "get_metrics",
+        "list_projects",
+        "get_help",
+        "api_execute",
+        "api_status",
+        "api_projects"
+      ],
+      "docstring": "DEVELOPER CHAT BACKEND\nCommunication interface with Autonomous AI System"
+    },
+    {
+      "id": "developer_chat_ui",
+      "name": "developer_chat_ui",
+      "file": "developer_chat_ui.py",
+      "path": "developer_chat_ui.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 321,
+      "imports": [
+        "flask"
+      ],
+      "classes": [],
+      "functions": [
+        "dev_chat"
+      ],
+      "docstring": "DEVELOPER CHAT UI\nBeautiful interface for system developer"
+    },
+    {
+      "id": "enterprise_control_plane",
+      "name": "enterprise_control_plane",
+      "file": "enterprise_control_plane.py",
+      "path": "enterprise_control_plane.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 501,
+      "imports": [
+        "collections",
+        "datetime",
+        "flask",
+        "json",
+        "psutil",
+        "requests",
+        "subprocess",
+        "sys"
+      ],
+      "classes": [
+        "EnterpriseControlPlane"
+      ],
+      "functions": [
+        "dashboard",
+        "system_status",
+        "services_status",
+        "projects_summary",
+        "control_restart",
+        "view_logs"
+      ],
+      "docstring": "SYSTEMAI ENTERPRISE CONTROL PLANE\nPort 50000 (via NGINX)\nProfessional Monitoring & Management Dashboard"
+    },
+    {
+      "id": "enterprise_control_plane_simple",
+      "name": "enterprise_control_plane_simple",
+      "file": "enterprise_control_plane_simple.py",
+      "path": "enterprise_control_plane_simple.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 178,
+      "imports": [
+        "datetime",
+        "flask"
+      ],
+      "classes": [],
+      "functions": [
+        "dashboard",
+        "health",
+        "api_status"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "evolution_engine",
+      "name": "evolution_engine",
+      "file": "evolution_engine.py",
+      "path": "evolution_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 85,
+      "imports": [
+        "compare_engine",
+        "learning_engine",
+        "memory_engine",
+        "os",
+        "shutil",
+        "subprocess",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "last_upgrade_time",
+        "can_upgrade",
+        "next_version",
+        "generate_candidate",
+        "promote",
+        "evolve"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "executor",
+      "name": "executor",
+      "file": "executor.py",
+      "path": "executor.py",
+      "subdirectory": ".",
+      "category": "workers",
+      "line_count": 69,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "executor_engine",
+      "name": "executor_engine",
+      "file": "executor_engine.py",
+      "path": "executor_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 35,
+      "imports": [
+        "json",
+        "threading",
+        "worker_pool"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "goal_check",
+      "name": "goal_check",
+      "file": "goal_check.py",
+      "path": "goal_check.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 14,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "goal_done"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "intelligent_conversation_engine",
+      "name": "intelligent_conversation_engine",
+      "file": "intelligent_conversation_engine.py",
+      "path": "intelligent_conversation_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 476,
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "re",
+        "uuid"
+      ],
+      "classes": [
+        "ConversationAnalyzer",
+        "ProjectDetector",
+        "NaturalResponseGenerator",
+        "IntelligentConversationEngine"
+      ],
+      "functions": [],
+      "docstring": "INTELLIGENT CONVERSATION ENGINE\nNat\u00fcrliche, tiefe Gespr\u00e4che die User nicht durchschauen\nErmittelt Anforderungen implizit\nErstellt Projekte automatisch im Hintergrund"
+    },
+    {
+      "id": "interface",
+      "name": "interface",
+      "file": "interface.py",
+      "path": "interface.py",
+      "subdirectory": ".",
+      "category": "api",
+      "line_count": 22,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "set_goal",
+        "show"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "knowledge_engine",
+      "name": "knowledge_engine",
+      "file": "knowledge_engine.py",
+      "path": "knowledge_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 22,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "remember",
+        "recall"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "learning_engine",
+      "name": "learning_engine",
+      "file": "learning_engine.py",
+      "path": "learning_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 51,
+      "imports": [
+        "memory_engine",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "successful_upgrades",
+        "extract_patterns",
+        "learn"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "local_ai_connector",
+      "name": "local_ai_connector",
+      "file": "local_ai_connector.py",
+      "path": "local_ai_connector.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 102,
+      "imports": [
+        "datetime",
+        "json",
+        "requests",
+        "time"
+      ],
+      "classes": [
+        "LocalAIConnector"
+      ],
+      "functions": [
+        "get_ai"
+      ],
+      "docstring": "LOCAL AI CONNECTOR\nIntegrates Ollama (local AI) into system loop\nMakes your AI available as system service"
+    },
+    {
+      "id": "memory_engine",
+      "name": "memory_engine",
+      "file": "memory_engine.py",
+      "path": "memory_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 35,
+      "imports": [
+        "json",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "log",
+        "recent_failures"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "multi_project_manager",
+      "name": "multi_project_manager",
+      "file": "multi_project_manager.py",
+      "path": "multi_project_manager.py",
+      "subdirectory": ".",
+      "category": "managers",
+      "line_count": 154,
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "pathlib",
+        "requests",
+        "time",
+        "uuid"
+      ],
+      "classes": [
+        "MultiProjectManager"
+      ],
+      "functions": [],
+      "docstring": "MULTI-PROJECT MANAGER\nHandles slow AI responses and offline mode"
+    },
+    {
+      "id": "planner_engine",
+      "name": "planner_engine",
+      "file": "planner_engine.py",
+      "path": "planner_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 24,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "plan"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "port_monitor",
+      "name": "port_monitor",
+      "file": "port_monitor.py",
+      "path": "port_monitor.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 119,
+      "imports": [
+        "datetime",
+        "json",
+        "logging",
+        "pathlib",
+        "subprocess",
+        "time"
+      ],
+      "classes": [
+        "PortMonitor",
+        "SystemAIWithPortMonitoring"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "principle",
+      "name": "principle",
+      "file": "principle.py",
+      "path": "principle.py",
+      "subdirectory": ".",
+      "category": "intelligence",
+      "line_count": 22,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "run",
+        "set_goal"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "principle_brain",
+      "name": "principle_brain",
+      "file": "principle_brain.py",
+      "path": "principle_brain.py",
+      "subdirectory": ".",
+      "category": "intelligence",
+      "line_count": 303,
+      "imports": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os"
+      ],
+      "classes": [
+        "PrincipleSOT",
+        "PrincipleBrain"
+      ],
+      "functions": [
+        "get_principle_brain"
+      ],
+      "docstring": "PRINCIPLE BRAIN - System AI f\u00fcr den Owner\nDas Gehirn von Principle\nLiest aus Principle SOT, macht Entscheidungen, lernt"
+    },
+    {
+      "id": "projects_api",
+      "name": "projects_api",
+      "file": "projects_api.py",
+      "path": "projects_api.py",
+      "subdirectory": ".",
+      "category": "api",
+      "line_count": 161,
+      "imports": [
+        "datetime",
+        "flask",
+        "json",
+        "multi_project_manager",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "create_project",
+        "list_projects",
+        "get_project",
+        "analyze_project",
+        "projects_by_region",
+        "summary",
+        "health",
+        "stats_overview",
+        "root",
+        "dashboard"
+      ],
+      "docstring": "PROJECTS REST API\nManage multi-project system via HTTP"
+    },
+    {
+      "id": "reason_engine",
+      "name": "reason_engine",
+      "file": "reason_engine.py",
+      "path": "reason_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 42,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "analyze",
+        "explain"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "self_coder",
+      "name": "self_coder",
+      "file": "self_coder.py",
+      "path": "self_coder.py",
+      "subdirectory": ".",
+      "category": "misc",
+      "line_count": 48,
+      "imports": [
+        "memory_engine",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "already_evolved",
+        "evolve"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "self_healer",
+      "name": "self_healer",
+      "file": "self_healer.py",
+      "path": "self_healer.py",
+      "subdirectory": ".",
+      "category": "healers",
+      "line_count": 9,
+      "imports": [],
+      "classes": [
+        "SelfHealer"
+      ],
+      "functions": [],
+      "docstring": "Self-Healer Engine"
+    },
+    {
+      "id": "server",
+      "name": "server",
+      "file": "server.py",
+      "path": "server.py",
+      "subdirectory": ".",
+      "category": "api",
+      "line_count": 52,
+      "imports": [
+        "http.server",
+        "json",
+        "os",
+        "sys",
+        "workspace.api"
+      ],
+      "classes": [
+        "Handler"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "smart_chat_engine",
+      "name": "smart_chat_engine",
+      "file": "smart_chat_engine.py",
+      "path": "smart_chat_engine.py",
+      "subdirectory": ".",
+      "category": "engines",
+      "line_count": 313,
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "re",
+        "sqlite3",
+        "subprocess"
+      ],
+      "classes": [
+        "SmartChatEngine"
+      ],
+      "functions": [
+        "process_user_input"
+      ],
+      "docstring": "SMART CHAT ENGINE\nEin virtueller Mitarbeiter der wie ein Mensch arbeitet\nAnalysiert \u2192 Versteht \u2192 Handelt \u2192 Berichtet"
+    },
+    {
+      "id": "system",
+      "name": "system",
+      "file": "system.py",
+      "path": "system.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 34,
+      "imports": [
+        "brain",
+        "executor",
+        "threading",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "loop",
+        "chat"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_ai_chat_interface",
+      "name": "system_ai_chat_interface",
+      "file": "system_ai_chat_interface.py",
+      "path": "system_ai_chat_interface.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 64,
+      "imports": [
+        "ai_developer_brain",
+        "flask",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [
+        "create_task",
+        "execute_task",
+        "status"
+      ],
+      "docstring": "SYSTEM AI CHAT INTERFACE\nChat mit AI Developer - gibt Aufgaben, bekommt Optionen, entscheidet"
+    },
+    {
+      "id": "system_ai_extensions",
+      "name": "system_ai_extensions",
+      "file": "system_ai_extensions.py",
+      "path": "system_ai_extensions.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_loop",
+      "name": "system_loop",
+      "file": "system_loop.py",
+      "path": "system_loop.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 58,
+      "imports": [
+        "datetime",
+        "json",
+        "multi_project_manager",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "main"
+      ],
+      "docstring": "SYSTEM LOOP WITH PROJECTS\nManages projects, analyzes with AI in background"
+    },
+    {
+      "id": "system_loop_enhanced",
+      "name": "system_loop_enhanced",
+      "file": "system_loop_enhanced.py",
+      "path": "system_loop_enhanced.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 49,
+      "imports": [
+        "datetime",
+        "json",
+        "pathlib",
+        "port_monitor",
+        "sys",
+        "time",
+        "traceback"
+      ],
+      "classes": [],
+      "functions": [
+        "main"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_loop_old",
+      "name": "system_loop_old",
+      "file": "system_loop_old.py",
+      "path": "system_loop_old.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 28,
+      "imports": [
+        "os",
+        "sys",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "main"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_loop_with_projects",
+      "name": "system_loop_with_projects",
+      "file": "system_loop_with_projects.py",
+      "path": "system_loop_with_projects.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 58,
+      "imports": [
+        "datetime",
+        "json",
+        "multi_project_manager",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "main"
+      ],
+      "docstring": "SYSTEM LOOP WITH PROJECTS\nManages projects, analyzes with AI in background"
+    },
+    {
+      "id": "systemai_master",
+      "name": "systemai_master",
+      "file": "systemai_master.py",
+      "path": "systemai_master.py",
+      "subdirectory": ".",
+      "category": "core",
+      "line_count": 123,
+      "imports": [
+        "datetime",
+        "flask",
+        "json",
+        "multi_project_manager",
+        "pathlib",
+        "port_monitor",
+        "subprocess",
+        "sys"
+      ],
+      "classes": [
+        "SystemAIMaster"
+      ],
+      "functions": [
+        "health",
+        "system_status",
+        "list_projects",
+        "detect_project",
+        "restart_services",
+        "get_port_status"
+      ],
+      "docstring": "SYSTEMAI MASTER CONTROLLER\nKoordiniert alle Services und Ports\nPort 27902"
+    },
+    {
+      "id": "unified_gateway",
+      "name": "unified_gateway",
+      "file": "unified_gateway.py",
+      "path": "unified_gateway.py",
+      "subdirectory": ".",
+      "category": "api",
+      "line_count": 176,
+      "imports": [
+        "auth_service",
+        "cache_layer",
+        "chat_assistant",
+        "datetime",
+        "flask",
+        "master_brain",
+        "os",
+        "sys",
+        "uuid"
+      ],
+      "classes": [],
+      "functions": [
+        "home",
+        "api_chat"
+      ],
+      "docstring": "UNIFIED GATEWAY - Mit Chat Assistant\nRoutes through Master Brain + Chat Intelligence"
+    },
+    {
+      "id": "worker_analyzer",
+      "name": "worker_analyzer",
+      "file": "worker_analyzer.py",
+      "path": "worker_analyzer.py",
+      "subdirectory": ".",
+      "category": "workers",
+      "line_count": 15,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "worker_builder",
+      "name": "worker_builder",
+      "file": "worker_builder.py",
+      "path": "worker_builder.py",
+      "subdirectory": ".",
+      "category": "workers",
+      "line_count": 34,
+      "imports": [
+        "memory_engine",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "gen_code",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "worker_fixer",
+      "name": "worker_fixer",
+      "file": "worker_fixer.py",
+      "path": "worker_fixer.py",
+      "subdirectory": ".",
+      "category": "workers",
+      "line_count": 31,
+      "imports": [
+        "memory_engine",
+        "os",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [
+        "syntax_ok",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "worker_pool",
+      "name": "worker_pool",
+      "file": "worker_pool.py",
+      "path": "worker_pool.py",
+      "subdirectory": ".",
+      "category": "workers",
+      "line_count": 22,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "execute"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.__init__",
+      "name": "__init__",
+      "file": "__init__.py",
+      "path": "workspace/__init__.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 0,
+      "imports": [],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.api",
+      "name": "api",
+      "file": "api.py",
+      "path": "workspace/api.py",
+      "subdirectory": "workspace",
+      "category": "api",
+      "line_count": 8,
+      "imports": [
+        "loader",
+        "router"
+      ],
+      "classes": [],
+      "functions": [
+        "handle"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.billing",
+      "name": "billing",
+      "file": "billing.py",
+      "path": "workspace/billing.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 6,
+      "imports": [
+        "registry"
+      ],
+      "classes": [],
+      "functions": [
+        "handler"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.customer",
+      "name": "customer",
+      "file": "customer.py",
+      "path": "workspace/customer.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 6,
+      "imports": [
+        "registry"
+      ],
+      "classes": [],
+      "functions": [
+        "handler"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.handler",
+      "name": "handler",
+      "file": "handler.py",
+      "path": "workspace/handler.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 2,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "handle"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.loader",
+      "name": "loader",
+      "file": "loader.py",
+      "path": "workspace/loader.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 11,
+      "imports": [
+        "importlib",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load_all"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.registry",
+      "name": "registry",
+      "file": "registry.py",
+      "path": "workspace/registry.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 9,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "register",
+        "get"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "workspace.router",
+      "name": "router",
+      "file": "router.py",
+      "path": "workspace/router.py",
+      "subdirectory": "workspace",
+      "category": "misc",
+      "line_count": 5,
+      "imports": [
+        "registry"
+      ],
+      "classes": [],
+      "functions": [
+        "route"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "internal.infra_manager",
+      "name": "infra_manager",
+      "file": "infra_manager.py",
+      "path": "internal/infra_manager.py",
+      "subdirectory": "internal",
+      "category": "managers",
+      "line_count": 58,
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "subprocess",
+        "typing"
+      ],
+      "classes": [
+        "InfraManager"
+      ],
+      "functions": [],
+      "docstring": "\ud83d\udfe2 INTERNAL BRAIN - Infrastructure Manager\nServer access, deployment, monitoring\nHIGH PRIVILEGE - Internal Only"
+    },
+    {
+      "id": "core.chat_assistant",
+      "name": "chat_assistant",
+      "file": "chat_assistant.py",
+      "path": "core/chat_assistant.py",
+      "subdirectory": "core",
+      "category": "misc",
+      "line_count": 275,
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "typing",
+        "uuid"
+      ],
+      "classes": [
+        "ConversationContext",
+        "IntentDetector",
+        "ResponseGenerator",
+        "ChatAssistant"
+      ],
+      "functions": [],
+      "docstring": "CHAT ASSISTANT - Die Intelligenz hinter dem Master Brain\nVersteht nat\u00fcrlich, routet intelligent, lernt kontinuierlich"
+    },
+    {
+      "id": "core.master_brain",
+      "name": "master_brain",
+      "file": "master_brain.py",
+      "path": "core/master_brain.py",
+      "subdirectory": "core",
+      "category": "intelligence",
+      "line_count": 181,
+      "imports": [
+        "datetime",
+        "enum",
+        "json",
+        "jwt",
+        "typing",
+        "uuid"
+      ],
+      "classes": [
+        "UserType",
+        "MasterBrain"
+      ],
+      "functions": [],
+      "docstring": "\ud83d\udd34 MASTER BRAIN - Central Orchestrator\nRoutes: internal vs external\nEnforces policies\nManages access"
+    },
+    {
+      "id": "shared.auth_service",
+      "name": "auth_service",
+      "file": "auth_service.py",
+      "path": "shared/auth_service.py",
+      "subdirectory": "shared",
+      "category": "misc",
+      "line_count": 39,
+      "imports": [
+        "datetime",
+        "enum",
+        "json",
+        "jwt",
+        "typing"
+      ],
+      "classes": [
+        "AuthService"
+      ],
+      "functions": [],
+      "docstring": "JWT-based authentication\nRole-based access control"
+    },
+    {
+      "id": "shared.cache_layer",
+      "name": "cache_layer",
+      "file": "cache_layer.py",
+      "path": "shared/cache_layer.py",
+      "subdirectory": "shared",
+      "category": "misc",
+      "line_count": 36,
+      "imports": [
+        "json",
+        "redis",
+        "typing"
+      ],
+      "classes": [
+        "CacheLayer"
+      ],
+      "functions": [],
+      "docstring": "Shared caching with ISOLATION\nInternal vs External namespaces"
+    },
+    {
+      "id": "system_core_working.",
+      "name": "",
+      "file": ".py",
+      "path": "system_core_working/.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 2,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_ai_manager",
+      "name": "_root_quarantine_aicore_backup_ai_manager",
+      "file": "_root_quarantine_aicore_backup_ai_manager.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_ai_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 77,
+      "imports": [
+        "aicore.auto_repair",
+        "aicore.deploy_pipeline",
+        "aicore.health_monitor"
+      ],
+      "classes": [
+        "AIManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_api",
+      "name": "_root_quarantine_aicore_backup_api",
+      "file": "_root_quarantine_aicore_backup_api.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_api.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 8,
+      "imports": [
+        "http.server"
+      ],
+      "classes": [
+        "Handler"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_auto_repair",
+      "name": "_root_quarantine_aicore_backup_auto_repair",
+      "file": "_root_quarantine_aicore_backup_auto_repair.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_auto_repair.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 21,
+      "imports": [
+        "aicore.executor"
+      ],
+      "classes": [
+        "AutoRepair"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_core_guard",
+      "name": "_root_quarantine_aicore_backup_core_guard",
+      "file": "_root_quarantine_aicore_backup_core_guard.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_core_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 16,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "CoreGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_core_repair",
+      "name": "_root_quarantine_aicore_backup_core_repair",
+      "file": "_root_quarantine_aicore_backup_core_repair.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_core_repair.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 25,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [
+        "CoreRepair"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_deploy_pipeline",
+      "name": "_root_quarantine_aicore_backup_deploy_pipeline",
+      "file": "_root_quarantine_aicore_backup_deploy_pipeline.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_deploy_pipeline.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 31,
+      "imports": [
+        "aicore.executor",
+        "aicore.validator"
+      ],
+      "classes": [
+        "DeployPipeline"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_deploy_queue",
+      "name": "_root_quarantine_aicore_backup_deploy_queue",
+      "file": "_root_quarantine_aicore_backup_deploy_queue.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_deploy_queue.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 27,
+      "imports": [
+        "aicore.state_manager"
+      ],
+      "classes": [
+        "DeployQueue"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_health_monitor",
+      "name": "_root_quarantine_aicore_backup_health_monitor",
+      "file": "_root_quarantine_aicore_backup_health_monitor.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_health_monitor.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 62,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "HealthMonitor"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_health_system",
+      "name": "_root_quarantine_aicore_backup_health_system",
+      "file": "_root_quarantine_aicore_backup_health_system.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_health_system.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 49,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "HealthSystem"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_immune_daemon",
+      "name": "_root_quarantine_aicore_backup_immune_daemon",
+      "file": "_root_quarantine_aicore_backup_immune_daemon.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_immune_daemon.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 52,
+      "imports": [
+        "aicore.auto_repair",
+        "aicore.health_monitor",
+        "hashlib",
+        "os",
+        "time"
+      ],
+      "classes": [
+        "ImmuneDaemon"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_module_registry",
+      "name": "_root_quarantine_aicore_backup_module_registry",
+      "file": "_root_quarantine_aicore_backup_module_registry.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_module_registry.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 25,
+      "imports": [
+        "aicore.state_manager"
+      ],
+      "classes": [
+        "ModuleRegistry"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_state_manager",
+      "name": "_root_quarantine_aicore_backup_state_manager",
+      "file": "_root_quarantine_aicore_backup_state_manager.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_state_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 24,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [
+        "StateManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_system_entry",
+      "name": "_root_quarantine_aicore_backup_system_entry",
+      "file": "_root_quarantine_aicore_backup_system_entry.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_system_entry.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 17,
+      "imports": [
+        "aicore.ai_manager"
+      ],
+      "classes": [
+        "SystemEntry"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_tenant_manager",
+      "name": "_root_quarantine_aicore_backup_tenant_manager",
+      "file": "_root_quarantine_aicore_backup_tenant_manager.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_tenant_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 34,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "TenantManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_version_manager",
+      "name": "_root_quarantine_aicore_backup_version_manager",
+      "file": "_root_quarantine_aicore_backup_version_manager.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_version_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 56,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [
+        "VersionManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_aicore_backup_write_guard",
+      "name": "_root_quarantine_aicore_backup_write_guard",
+      "file": "_root_quarantine_aicore_backup_write_guard.py",
+      "path": "system_core_working/_root_quarantine_aicore_backup_write_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 34,
+      "imports": [
+        "os",
+        "py_compile",
+        "tempfile"
+      ],
+      "classes": [
+        "WriteGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working._root_quarantine_braintree_ui",
+      "name": "_root_quarantine_braintree_ui",
+      "file": "_root_quarantine_braintree_ui.py",
+      "path": "system_core_working/_root_quarantine_braintree_ui.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 49,
+      "imports": [
+        "flask",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read_file",
+        "index",
+        "unlock"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.action_engine",
+      "name": "action_engine",
+      "file": "action_engine.py",
+      "path": "system_core_working/action_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 70,
+      "imports": [
+        "json",
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save_log",
+        "execute",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.adaptation_core",
+      "name": "adaptation_core",
+      "file": "adaptation_core.py",
+      "path": "system_core_working/adaptation_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 73,
+      "imports": [],
+      "classes": [
+        "AdaptationCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.ai_manager",
+      "name": "ai_manager",
+      "file": "ai_manager.py",
+      "path": "system_core_working/ai_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 191,
+      "imports": [
+        "aicore.state_core_engine",
+        "importlib.util",
+        "organized.reading_engine",
+        "os",
+        "shutil",
+        "state_core_engine",
+        "subprocess",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.ai_manager_backup",
+      "name": "ai_manager_backup",
+      "file": "ai_manager_backup.py",
+      "path": "system_core_working/ai_manager_backup.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 122,
+      "imports": [
+        "json",
+        "os",
+        "time"
+      ],
+      "classes": [
+        "AIManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.ai_manager_legacy",
+      "name": "ai_manager_legacy",
+      "file": "ai_manager_legacy.py",
+      "path": "system_core_working/ai_manager_legacy.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 131,
+      "imports": [
+        "json",
+        "os",
+        "time",
+        "world_guard",
+        "world_perception"
+      ],
+      "classes": [
+        "AIManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.analytical_core",
+      "name": "analytical_core",
+      "file": "analytical_core.py",
+      "path": "system_core_working/analytical_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 71,
+      "imports": [],
+      "classes": [
+        "AnalyticalCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.api",
+      "name": "api",
+      "file": "api.py",
+      "path": "system_core_working/api.py",
+      "subdirectory": "system_core_working",
+      "category": "api",
+      "line_count": 8,
+      "imports": [
+        "http.server"
+      ],
+      "classes": [
+        "Handler"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.app",
+      "name": "app",
+      "file": "app.py",
+      "path": "system_core_working/app.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 32,
+      "imports": [
+        "aicore.ai_manager",
+        "flask",
+        "traceback"
+      ],
+      "classes": [
+        "SafeAI"
+      ],
+      "functions": [
+        "index",
+        "chat"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.architect_decision",
+      "name": "architect_decision",
+      "file": "architect_decision.py",
+      "path": "system_core_working/architect_decision.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 23,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "decide"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.attention_controller",
+      "name": "attention_controller",
+      "file": "attention_controller.py",
+      "path": "system_core_working/attention_controller.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 43,
+      "imports": [
+        "json",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "get_state",
+        "decide",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.audit_service",
+      "name": "audit_service",
+      "file": "audit_service.py",
+      "path": "system_core_working/audit_service.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.auto_expand",
+      "name": "auto_expand",
+      "file": "auto_expand.py",
+      "path": "system_core_working/auto_expand.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 33,
+      "imports": [
+        "json",
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.auto_repair",
+      "name": "auto_repair",
+      "file": "auto_repair.py",
+      "path": "system_core_working/auto_repair.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 21,
+      "imports": [
+        "aicore.executor"
+      ],
+      "classes": [
+        "AutoRepair"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.brain_entry",
+      "name": "brain_entry",
+      "file": "brain_entry.py",
+      "path": "system_core_working/brain_entry.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 55,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "scan",
+        "classify",
+        "think"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.chat_engine",
+      "name": "chat_engine",
+      "file": "chat_engine.py",
+      "path": "system_core_working/chat_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 46,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "answer",
+        "chat"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.classifier",
+      "name": "classifier",
+      "file": "classifier.py",
+      "path": "system_core_working/classifier.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 49,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "classify",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.cluster_decision",
+      "name": "cluster_decision",
+      "file": "cluster_decision.py",
+      "path": "system_core_working/cluster_decision.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 77,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "cluster_connections",
+        "evaluate_cluster",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.cognition",
+      "name": "cognition",
+      "file": "cognition.py",
+      "path": "system_core_working/cognition.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 56,
+      "imports": [],
+      "classes": [
+        "Cognition"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.cognitive_core",
+      "name": "cognitive_core",
+      "file": "cognitive_core.py",
+      "path": "system_core_working/cognitive_core.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 96,
+      "imports": [
+        "json",
+        "subprocess",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "run",
+        "load",
+        "save",
+        "perception",
+        "attention",
+        "thinking",
+        "decision",
+        "act",
+        "loop"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.cognitive_loop",
+      "name": "cognitive_loop",
+      "file": "cognitive_loop.py",
+      "path": "system_core_working/cognitive_loop.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 69,
+      "imports": [
+        "json",
+        "os",
+        "subprocess",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "run",
+        "perception",
+        "attention",
+        "thinking",
+        "memory",
+        "decision",
+        "act",
+        "loop"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.cognitive_parallel",
+      "name": "cognitive_parallel",
+      "file": "cognitive_parallel.py",
+      "path": "system_core_working/cognitive_parallel.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 42,
+      "imports": [
+        "json",
+        "subprocess",
+        "threading",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "run",
+        "get_attention",
+        "loop"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.command_parser",
+      "name": "command_parser",
+      "file": "command_parser.py",
+      "path": "system_core_working/command_parser.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 26,
+      "imports": [],
+      "classes": [
+        "CommandParser"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.context_runtime",
+      "name": "context_runtime",
+      "file": "context_runtime.py",
+      "path": "system_core_working/context_runtime.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 48,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "build_context",
+        "save_context",
+        "save_memory",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.core_guard",
+      "name": "core_guard",
+      "file": "core_guard.py",
+      "path": "system_core_working/core_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 16,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "CoreGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.core_health",
+      "name": "core_health",
+      "file": "core_health.py",
+      "path": "system_core_working/core_health.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 33,
+      "imports": [
+        "os",
+        "py_compile"
+      ],
+      "classes": [
+        "CoreHealth"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.core_repair",
+      "name": "core_repair",
+      "file": "core_repair.py",
+      "path": "system_core_working/core_repair.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 25,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [
+        "CoreRepair"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.curiosity_loop",
+      "name": "curiosity_loop",
+      "file": "curiosity_loop.py",
+      "path": "system_core_working/curiosity_loop.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 66,
+      "imports": [
+        "json",
+        "os",
+        "time"
+      ],
+      "classes": [],
+      "functions": [
+        "load_brain",
+        "find_targets",
+        "inspect",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.debug_expand",
+      "name": "debug_expand",
+      "file": "debug_expand.py",
+      "path": "system_core_working/debug_expand.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 22,
+      "imports": [
+        "json",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.decision_core",
+      "name": "decision_core",
+      "file": "decision_core.py",
+      "path": "system_core_working/decision_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 49,
+      "imports": [],
+      "classes": [
+        "DecisionCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.decision_fix",
+      "name": "decision_fix",
+      "file": "decision_fix.py",
+      "path": "system_core_working/decision_fix.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 28,
+      "imports": [
+        "fileinput"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.deploy_pipeline",
+      "name": "deploy_pipeline",
+      "file": "deploy_pipeline.py",
+      "path": "system_core_working/deploy_pipeline.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 31,
+      "imports": [
+        "aicore.executor",
+        "aicore.validator"
+      ],
+      "classes": [
+        "DeployPipeline"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.deploy_queue",
+      "name": "deploy_queue",
+      "file": "deploy_queue.py",
+      "path": "system_core_working/deploy_queue.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 27,
+      "imports": [
+        "aicore.state_manager"
+      ],
+      "classes": [
+        "DeployQueue"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.devops",
+      "name": "devops",
+      "file": "devops.py",
+      "path": "system_core_working/devops.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 25,
+      "imports": [
+        "json",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [
+        "health",
+        "repair",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.discovery",
+      "name": "discovery",
+      "file": "discovery.py",
+      "path": "system_core_working/discovery.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 64,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "find_files",
+        "classify",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.enforcement_engine",
+      "name": "enforcement_engine",
+      "file": "enforcement_engine.py",
+      "path": "system_core_working/enforcement_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 18,
+      "imports": [],
+      "classes": [
+        "EnforcementEngine"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.evolution",
+      "name": "evolution",
+      "file": "evolution.py",
+      "path": "system_core_working/evolution.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 64,
+      "imports": [
+        "json",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [
+        "load_principle",
+        "get_state",
+        "evaluate",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.evolution_core",
+      "name": "evolution_core",
+      "file": "evolution_core.py",
+      "path": "system_core_working/evolution_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 32,
+      "imports": [],
+      "classes": [
+        "EvolutionCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.execution_validator",
+      "name": "execution_validator",
+      "file": "execution_validator.py",
+      "path": "system_core_working/execution_validator.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 16,
+      "imports": [],
+      "classes": [
+        "ExecutionValidator"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.executor",
+      "name": "executor",
+      "file": "executor.py",
+      "path": "system_core_working/executor.py",
+      "subdirectory": "system_core_working",
+      "category": "workers",
+      "line_count": 41,
+      "imports": [
+        "aicore.module_registry",
+        "aicore.write_guard",
+        "os"
+      ],
+      "classes": [
+        "WorkPackageExecutor"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.experiment_core",
+      "name": "experiment_core",
+      "file": "experiment_core.py",
+      "path": "system_core_working/experiment_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 25,
+      "imports": [
+        "os",
+        "random"
+      ],
+      "classes": [
+        "ExperimentCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.file_ai",
+      "name": "file_ai",
+      "file": "file_ai.py",
+      "path": "system_core_working/file_ai.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 42,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "classify",
+        "analyze"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.fix_graph",
+      "name": "fix_graph",
+      "file": "fix_graph.py",
+      "path": "system_core_working/fix_graph.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 42,
+      "imports": [
+        "fileinput"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.fix_runtime",
+      "name": "fix_runtime",
+      "file": "fix_runtime.py",
+      "path": "system_core_working/fix_runtime.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 47,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.forensic_core",
+      "name": "forensic_core",
+      "file": "forensic_core.py",
+      "path": "system_core_working/forensic_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 50,
+      "imports": [],
+      "classes": [
+        "ForensicCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.forensic_reader",
+      "name": "forensic_reader",
+      "file": "forensic_reader.py",
+      "path": "system_core_working/forensic_reader.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 72,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read",
+        "analyze",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.generator",
+      "name": "generator",
+      "file": "generator.py",
+      "path": "system_core_working/generator.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 52,
+      "imports": [
+        "json",
+        "os",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [
+        "ensure",
+        "build_unknown_handler",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.graph_engine",
+      "name": "graph_engine",
+      "file": "graph_engine.py",
+      "path": "system_core_working/graph_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 65,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "extract_relations",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.health_decision",
+      "name": "health_decision",
+      "file": "health_decision.py",
+      "path": "system_core_working/health_decision.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 25,
+      "imports": [],
+      "classes": [
+        "HealthDecisionEngine"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.health_monitor",
+      "name": "health_monitor",
+      "file": "health_monitor.py",
+      "path": "system_core_working/health_monitor.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 62,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "HealthMonitor"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.health_system",
+      "name": "health_system",
+      "file": "health_system.py",
+      "path": "system_core_working/health_system.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 49,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "HealthSystem"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.iam",
+      "name": "iam",
+      "file": "iam.py",
+      "path": "system_core_working/iam.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 17,
+      "imports": [],
+      "classes": [
+        "IAM"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.immune_daemon",
+      "name": "immune_daemon",
+      "file": "immune_daemon.py",
+      "path": "system_core_working/immune_daemon.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 52,
+      "imports": [
+        "aicore.auto_repair",
+        "aicore.health_monitor",
+        "hashlib",
+        "os",
+        "time"
+      ],
+      "classes": [
+        "ImmuneDaemon"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.import_engine",
+      "name": "import_engine",
+      "file": "import_engine.py",
+      "path": "system_core_working/import_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 45,
+      "imports": [
+        "json",
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.index_engine",
+      "name": "index_engine",
+      "file": "index_engine.py",
+      "path": "system_core_working/index_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 40,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.input_layer",
+      "name": "input_layer",
+      "file": "input_layer.py",
+      "path": "system_core_working/input_layer.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 39,
+      "imports": [],
+      "classes": [
+        "InputLayer"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.integration_engine",
+      "name": "integration_engine",
+      "file": "integration_engine.py",
+      "path": "system_core_working/integration_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 86,
+      "imports": [
+        "json",
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "classify",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.intelligence_core",
+      "name": "intelligence_core",
+      "file": "intelligence_core.py",
+      "path": "system_core_working/intelligence_core.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 93,
+      "imports": [
+        "json",
+        "os",
+        "re"
+      ],
+      "classes": [],
+      "functions": [
+        "read_file",
+        "extract_structure",
+        "classify",
+        "summarize",
+        "evaluate",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.intelligence_runtime",
+      "name": "intelligence_runtime",
+      "file": "intelligence_runtime.py",
+      "path": "system_core_working/intelligence_runtime.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 140,
+      "imports": [
+        "json",
+        "os",
+        "re"
+      ],
+      "classes": [],
+      "functions": [
+        "build_context",
+        "read_file",
+        "extract",
+        "classify",
+        "summarize",
+        "evaluate",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.investigate_pipeline",
+      "name": "investigate_pipeline",
+      "file": "investigate_pipeline.py",
+      "path": "system_core_working/investigate_pipeline.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 112,
+      "imports": [
+        "json",
+        "os",
+        "re"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "read_file",
+        "extract_structure",
+        "detect_purpose",
+        "describe",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.learning",
+      "name": "learning",
+      "file": "learning.py",
+      "path": "system_core_working/learning.py",
+      "subdirectory": "system_core_working",
+      "category": "memory",
+      "line_count": 48,
+      "imports": [
+        "json",
+        "os",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "evaluate"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.manager_healing",
+      "name": "manager_healing",
+      "file": "manager_healing.py",
+      "path": "system_core_working/manager_healing.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 38,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "analyze_error",
+        "fix_file"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.memory_engine",
+      "name": "memory_engine",
+      "file": "memory_engine.py",
+      "path": "system_core_working/memory_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 85,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "summarize",
+        "detect_module",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.module",
+      "name": "module",
+      "file": "module.py",
+      "path": "system_core_working/module.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.module_analyzer",
+      "name": "module_analyzer",
+      "file": "module_analyzer.py",
+      "path": "system_core_working/module_analyzer.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 31,
+      "imports": [],
+      "classes": [
+        "ModuleAnalyzer"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.module_detector",
+      "name": "module_detector",
+      "file": "module_detector.py",
+      "path": "system_core_working/module_detector.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 24,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.module_integration",
+      "name": "module_integration",
+      "file": "module_integration.py",
+      "path": "system_core_working/module_integration.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 46,
+      "imports": [
+        "json",
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "evaluate_module",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.module_registry",
+      "name": "module_registry",
+      "file": "module_registry.py",
+      "path": "system_core_working/module_registry.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 25,
+      "imports": [
+        "aicore.state_manager"
+      ],
+      "classes": [
+        "ModuleRegistry"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.module_understanding",
+      "name": "module_understanding",
+      "file": "module_understanding.py",
+      "path": "system_core_working/module_understanding.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 85,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read_file",
+        "analyze_file",
+        "summarize_module",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.payment_service",
+      "name": "payment_service",
+      "file": "payment_service.py",
+      "path": "system_core_working/payment_service.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.policy_engine",
+      "name": "policy_engine",
+      "file": "policy_engine.py",
+      "path": "system_core_working/policy_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 23,
+      "imports": [],
+      "classes": [
+        "PolicyEngine"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.principle_engine",
+      "name": "principle_engine",
+      "file": "principle_engine.py",
+      "path": "system_core_working/principle_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 86,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read_head",
+        "analyze_file",
+        "scan"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.principle_interface",
+      "name": "principle_interface",
+      "file": "principle_interface.py",
+      "path": "system_core_working/principle_interface.py",
+      "subdirectory": "system_core_working",
+      "category": "intelligence",
+      "line_count": 62,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "summarize",
+        "propose_actions",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.query_engine",
+      "name": "query_engine",
+      "file": "query_engine.py",
+      "path": "system_core_working/query_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 36,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "find_module",
+        "find_logic",
+        "find_structure",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.reader_v2",
+      "name": "reader_v2",
+      "file": "reader_v2.py",
+      "path": "system_core_working/reader_v2.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 76,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read",
+        "analyze",
+        "scan"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.reading_engine.bak",
+      "name": "reading_engine.bak",
+      "file": "reading_engine.bak.py",
+      "path": "system_core_working/reading_engine.bak.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 74,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read_file",
+        "vertical_analysis",
+        "horizontal_analysis",
+        "recursive_structure",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.reading_engine",
+      "name": "reading_engine",
+      "file": "reading_engine.py",
+      "path": "system_core_working/reading_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 75,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read_file",
+        "vertical_analysis",
+        "horizontal_analysis",
+        "recursive_structure",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.run_system",
+      "name": "run_system",
+      "file": "run_system.py",
+      "path": "system_core_working/run_system.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 14,
+      "imports": [
+        "aicore.system_entry",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.safe_module",
+      "name": "safe_module",
+      "file": "safe_module.py",
+      "path": "system_core_working/safe_module.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.safe_test",
+      "name": "safe_test",
+      "file": "safe_test.py",
+      "path": "system_core_working/safe_test.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.scanner",
+      "name": "scanner",
+      "file": "scanner.py",
+      "path": "system_core_working/scanner.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 39,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.self_build",
+      "name": "self_build",
+      "file": "self_build.py",
+      "path": "system_core_working/self_build.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 47,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load_brain",
+        "detect_issues",
+        "propose_actions",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.self_heal",
+      "name": "self_heal",
+      "file": "self_heal.py",
+      "path": "system_core_working/self_heal.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 39,
+      "imports": [
+        "json",
+        "os",
+        "subprocess"
+      ],
+      "classes": [],
+      "functions": [
+        "check",
+        "fix",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.self_refactor",
+      "name": "self_refactor",
+      "file": "self_refactor.py",
+      "path": "system_core_working/self_refactor.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 62,
+      "imports": [
+        "json",
+        "os",
+        "shutil"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "propose_fix",
+        "save_actions",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.self_refactor_fix",
+      "name": "self_refactor_fix",
+      "file": "self_refactor_fix.py",
+      "path": "system_core_working/self_refactor_fix.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 40,
+      "imports": [
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "resolve_path",
+        "already_processed"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.semantic",
+      "name": "semantic",
+      "file": "semantic.py",
+      "path": "system_core_working/semantic.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 76,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "read_head",
+        "classify",
+        "score",
+        "belongs",
+        "scan"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.semantic_engine",
+      "name": "semantic_engine",
+      "file": "semantic_engine.py",
+      "path": "system_core_working/semantic_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 40,
+      "imports": [],
+      "classes": [
+        "SemanticEngine"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.serviced",
+      "name": "serviced",
+      "file": "serviced.py",
+      "path": "system_core_working/serviced.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.start_immune",
+      "name": "start_immune",
+      "file": "start_immune.py",
+      "path": "system_core_working/start_immune.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 3,
+      "imports": [
+        "aicore.immune_daemon"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.state_core",
+      "name": "state_core",
+      "file": "state_core.py",
+      "path": "system_core_working/state_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 114,
+      "imports": [
+        "hashlib",
+        "json",
+        "os"
+      ],
+      "classes": [
+        "StateCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.state_core_engine.broken",
+      "name": "state_core_engine.broken",
+      "file": "state_core_engine.broken.py",
+      "path": "system_core_working/state_core_engine.broken.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 41,
+      "imports": [],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.state_core_engine",
+      "name": "state_core_engine",
+      "file": "state_core_engine.py",
+      "path": "system_core_working/state_core_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 206,
+      "imports": [
+        "importlib.util",
+        "inspect",
+        "os"
+      ],
+      "classes": [
+        "StateCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.state_manager",
+      "name": "state_manager",
+      "file": "state_manager.py",
+      "path": "system_core_working/state_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 32,
+      "imports": [
+        "json"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "update"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.strategy",
+      "name": "strategy",
+      "file": "strategy.py",
+      "path": "system_core_working/strategy.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 22,
+      "imports": [
+        "json",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [
+        "decide"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.structure_reader",
+      "name": "structure_reader",
+      "file": "structure_reader.py",
+      "path": "system_core_working/structure_reader.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 72,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "summarize_file",
+        "scan_dir",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system",
+      "name": "system",
+      "file": "system.py",
+      "path": "system_core_working/system.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system_clusters",
+      "name": "system_clusters",
+      "file": "system_clusters.py",
+      "path": "system_core_working/system_clusters.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 91,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "build_clusters",
+        "detect_topic",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system_entry",
+      "name": "system_entry",
+      "file": "system_entry.py",
+      "path": "system_core_working/system_entry.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 10,
+      "imports": [
+        "aicore.ai_manager"
+      ],
+      "classes": [
+        "SystemEntry"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system_evolution",
+      "name": "system_evolution",
+      "file": "system_evolution.py",
+      "path": "system_core_working/system_evolution.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 97,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "detect_duplicates",
+        "detect_garbage",
+        "propose_structure",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system_map",
+      "name": "system_map",
+      "file": "system_map.py",
+      "path": "system_core_working/system_map.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 100,
+      "imports": [
+        "json",
+        "os",
+        "re"
+      ],
+      "classes": [],
+      "functions": [
+        "load_brain",
+        "extract_imports",
+        "build_graph",
+        "detect_roles",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system_runtime",
+      "name": "system_runtime",
+      "file": "system_runtime.py",
+      "path": "system_core_working/system_runtime.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 125,
+      "imports": [
+        "aicore.adaptation_core",
+        "aicore.cognition",
+        "aicore.experiment_core",
+        "aicore.forensic_core",
+        "aicore.system_entry",
+        "time"
+      ],
+      "classes": [
+        "AnalyticalCore",
+        "SystemRuntime"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.system_watch",
+      "name": "system_watch",
+      "file": "system_watch.py",
+      "path": "system_core_working/system_watch.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 55,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "SystemWatch"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.tenant_manager",
+      "name": "tenant_manager",
+      "file": "tenant_manager.py",
+      "path": "system_core_working/tenant_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 34,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "TenantManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.test",
+      "name": "test",
+      "file": "test.py",
+      "path": "system_core_working/test.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 2,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.test_module",
+      "name": "test_module",
+      "file": "test_module.py",
+      "path": "system_core_working/test_module.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "test"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.validation_engine",
+      "name": "validation_engine",
+      "file": "validation_engine.py",
+      "path": "system_core_working/validation_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 9,
+      "imports": [
+        "py_compile"
+      ],
+      "classes": [],
+      "functions": [
+        "validate"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.validator",
+      "name": "validator",
+      "file": "validator.py",
+      "path": "system_core_working/validator.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 24,
+      "imports": [],
+      "classes": [
+        "Validator"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.version_manager",
+      "name": "version_manager",
+      "file": "version_manager.py",
+      "path": "system_core_working/version_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 56,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [
+        "VersionManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.version_test",
+      "name": "version_test",
+      "file": "version_test.py",
+      "path": "system_core_working/version_test.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.worker",
+      "name": "worker",
+      "file": "worker.py",
+      "path": "system_core_working/worker.py",
+      "subdirectory": "system_core_working",
+      "category": "workers",
+      "line_count": 51,
+      "imports": [
+        "json",
+        "state_manager"
+      ],
+      "classes": [],
+      "functions": [
+        "load",
+        "save",
+        "read",
+        "analyze",
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.world_guard",
+      "name": "world_guard",
+      "file": "world_guard.py",
+      "path": "system_core_working/world_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 14,
+      "imports": [],
+      "classes": [
+        "WorldGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.world_perception",
+      "name": "world_perception",
+      "file": "world_perception.py",
+      "path": "system_core_working/world_perception.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 45,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "WorldState"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.write_guard",
+      "name": "write_guard",
+      "file": "write_guard.py",
+      "path": "system_core_working/write_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 34,
+      "imports": [
+        "os",
+        "py_compile",
+        "tempfile"
+      ],
+      "classes": [
+        "WriteGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.ai_manager",
+      "name": "ai_manager",
+      "file": "ai_manager.py",
+      "path": "system_core_working/modules/aicore_backup/ai_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 77,
+      "imports": [
+        "aicore.auto_repair",
+        "aicore.deploy_pipeline",
+        "aicore.health_monitor"
+      ],
+      "classes": [
+        "AIManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.api",
+      "name": "api",
+      "file": "api.py",
+      "path": "system_core_working/modules/aicore_backup/api.py",
+      "subdirectory": "system_core_working",
+      "category": "api",
+      "line_count": 8,
+      "imports": [
+        "http.server"
+      ],
+      "classes": [
+        "Handler"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.audit_service",
+      "name": "audit_service",
+      "file": "audit_service.py",
+      "path": "system_core_working/modules/aicore_backup/audit_service.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.auto_repair",
+      "name": "auto_repair",
+      "file": "auto_repair.py",
+      "path": "system_core_working/modules/aicore_backup/auto_repair.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 21,
+      "imports": [
+        "aicore.executor"
+      ],
+      "classes": [
+        "AutoRepair"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.command_parser",
+      "name": "command_parser",
+      "file": "command_parser.py",
+      "path": "system_core_working/modules/aicore_backup/command_parser.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 26,
+      "imports": [],
+      "classes": [
+        "CommandParser"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.core_guard",
+      "name": "core_guard",
+      "file": "core_guard.py",
+      "path": "system_core_working/modules/aicore_backup/core_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 16,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "CoreGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.core_health",
+      "name": "core_health",
+      "file": "core_health.py",
+      "path": "system_core_working/modules/aicore_backup/core_health.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 33,
+      "imports": [
+        "os",
+        "py_compile"
+      ],
+      "classes": [
+        "CoreHealth"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.core_repair",
+      "name": "core_repair",
+      "file": "core_repair.py",
+      "path": "system_core_working/modules/aicore_backup/core_repair.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 25,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [
+        "CoreRepair"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.decision_core",
+      "name": "decision_core",
+      "file": "decision_core.py",
+      "path": "system_core_working/modules/aicore_backup/decision_core.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 19,
+      "imports": [],
+      "classes": [
+        "DecisionCore"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.deploy_pipeline",
+      "name": "deploy_pipeline",
+      "file": "deploy_pipeline.py",
+      "path": "system_core_working/modules/aicore_backup/deploy_pipeline.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 31,
+      "imports": [
+        "aicore.executor",
+        "aicore.validator"
+      ],
+      "classes": [
+        "DeployPipeline"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.deploy_queue",
+      "name": "deploy_queue",
+      "file": "deploy_queue.py",
+      "path": "system_core_working/modules/aicore_backup/deploy_queue.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 27,
+      "imports": [
+        "aicore.state_manager"
+      ],
+      "classes": [
+        "DeployQueue"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.executor",
+      "name": "executor",
+      "file": "executor.py",
+      "path": "system_core_working/modules/aicore_backup/executor.py",
+      "subdirectory": "system_core_working",
+      "category": "workers",
+      "line_count": 41,
+      "imports": [
+        "aicore.module_registry",
+        "aicore.write_guard",
+        "os"
+      ],
+      "classes": [
+        "WorkPackageExecutor"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.health_decision",
+      "name": "health_decision",
+      "file": "health_decision.py",
+      "path": "system_core_working/modules/aicore_backup/health_decision.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 25,
+      "imports": [],
+      "classes": [
+        "HealthDecisionEngine"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.health_monitor",
+      "name": "health_monitor",
+      "file": "health_monitor.py",
+      "path": "system_core_working/modules/aicore_backup/health_monitor.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 62,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "HealthMonitor"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.health_system",
+      "name": "health_system",
+      "file": "health_system.py",
+      "path": "system_core_working/modules/aicore_backup/health_system.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 49,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "HealthSystem"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.iam",
+      "name": "iam",
+      "file": "iam.py",
+      "path": "system_core_working/modules/aicore_backup/iam.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 17,
+      "imports": [],
+      "classes": [
+        "IAM"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.immune_daemon",
+      "name": "immune_daemon",
+      "file": "immune_daemon.py",
+      "path": "system_core_working/modules/aicore_backup/immune_daemon.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 52,
+      "imports": [
+        "aicore.auto_repair",
+        "aicore.health_monitor",
+        "hashlib",
+        "os",
+        "time"
+      ],
+      "classes": [
+        "ImmuneDaemon"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.module",
+      "name": "module",
+      "file": "module.py",
+      "path": "system_core_working/modules/aicore_backup/module.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.module_analyzer",
+      "name": "module_analyzer",
+      "file": "module_analyzer.py",
+      "path": "system_core_working/modules/aicore_backup/module_analyzer.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 31,
+      "imports": [],
+      "classes": [
+        "ModuleAnalyzer"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.module_registry",
+      "name": "module_registry",
+      "file": "module_registry.py",
+      "path": "system_core_working/modules/aicore_backup/module_registry.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 25,
+      "imports": [
+        "aicore.state_manager"
+      ],
+      "classes": [
+        "ModuleRegistry"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.payment_service",
+      "name": "payment_service",
+      "file": "payment_service.py",
+      "path": "system_core_working/modules/aicore_backup/payment_service.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.run_system",
+      "name": "run_system",
+      "file": "run_system.py",
+      "path": "system_core_working/modules/aicore_backup/run_system.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 45,
+      "imports": [
+        "aicore.core_health",
+        "aicore.core_repair",
+        "aicore.system_entry",
+        "os",
+        "sys"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.safe_module",
+      "name": "safe_module",
+      "file": "safe_module.py",
+      "path": "system_core_working/modules/aicore_backup/safe_module.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.safe_test",
+      "name": "safe_test",
+      "file": "safe_test.py",
+      "path": "system_core_working/modules/aicore_backup/safe_test.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.semantic_engine",
+      "name": "semantic_engine",
+      "file": "semantic_engine.py",
+      "path": "system_core_working/modules/aicore_backup/semantic_engine.py",
+      "subdirectory": "system_core_working",
+      "category": "engines",
+      "line_count": 40,
+      "imports": [],
+      "classes": [
+        "SemanticEngine"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.start_immune",
+      "name": "start_immune",
+      "file": "start_immune.py",
+      "path": "system_core_working/modules/aicore_backup/start_immune.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 3,
+      "imports": [
+        "aicore.immune_daemon"
+      ],
+      "classes": [],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.state_manager",
+      "name": "state_manager",
+      "file": "state_manager.py",
+      "path": "system_core_working/modules/aicore_backup/state_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 24,
+      "imports": [
+        "json",
+        "os"
+      ],
+      "classes": [
+        "StateManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.system",
+      "name": "system",
+      "file": "system.py",
+      "path": "system_core_working/modules/aicore_backup/system.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 3,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.system_entry",
+      "name": "system_entry",
+      "file": "system_entry.py",
+      "path": "system_core_working/modules/aicore_backup/system_entry.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 17,
+      "imports": [
+        "aicore.ai_manager"
+      ],
+      "classes": [
+        "SystemEntry"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.system_watch",
+      "name": "system_watch",
+      "file": "system_watch.py",
+      "path": "system_core_working/modules/aicore_backup/system_watch.py",
+      "subdirectory": "system_core_working",
+      "category": "core",
+      "line_count": 55,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "SystemWatch"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.tenant_manager",
+      "name": "tenant_manager",
+      "file": "tenant_manager.py",
+      "path": "system_core_working/modules/aicore_backup/tenant_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 34,
+      "imports": [
+        "os"
+      ],
+      "classes": [
+        "TenantManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.test_module",
+      "name": "test_module",
+      "file": "test_module.py",
+      "path": "system_core_working/modules/aicore_backup/test_module.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "test"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.validator",
+      "name": "validator",
+      "file": "validator.py",
+      "path": "system_core_working/modules/aicore_backup/validator.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 24,
+      "imports": [],
+      "classes": [
+        "Validator"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.version_manager",
+      "name": "version_manager",
+      "file": "version_manager.py",
+      "path": "system_core_working/modules/aicore_backup/version_manager.py",
+      "subdirectory": "system_core_working",
+      "category": "managers",
+      "line_count": 56,
+      "imports": [
+        "os",
+        "shutil"
+      ],
+      "classes": [
+        "VersionManager"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.version_test",
+      "name": "version_test",
+      "file": "version_test.py",
+      "path": "system_core_working/modules/aicore_backup/version_test.py",
+      "subdirectory": "system_core_working",
+      "category": "misc",
+      "line_count": 1,
+      "imports": [],
+      "classes": [],
+      "functions": [
+        "run"
+      ],
+      "docstring": ""
+    },
+    {
+      "id": "system_core_working.modules.aicore_backup.write_guard",
+      "name": "write_guard",
+      "file": "write_guard.py",
+      "path": "system_core_working/modules/aicore_backup/write_guard.py",
+      "subdirectory": "system_core_working",
+      "category": "healers",
+      "line_count": 34,
+      "imports": [
+        "os",
+        "py_compile",
+        "tempfile"
+      ],
+      "classes": [
+        "WriteGuard"
+      ],
+      "functions": [],
+      "docstring": ""
+    },
+    {
+      "id": "external.app_builder",
+      "name": "app_builder",
+      "file": "app_builder.py",
+      "path": "external/app_builder.py",
+      "subdirectory": "external",
+      "category": "misc",
+      "line_count": 53,
+      "imports": [
+        "datetime",
+        "json",
+        "typing",
+        "uuid"
+      ],
+      "classes": [
+        "AppBuilder"
+      ],
+      "functions": [],
+      "docstring": "\ud83d\udd35 EXTERNAL BRAIN - App Builder\nFor customers - NO server access\nMulti-tenant, sandboxed, reproducible"
+    }
+  ]
+}
