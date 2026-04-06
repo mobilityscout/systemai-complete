@@ -1,0 +1,25 @@
+2026-04-06 22:39:34,643 INFO     launcher – Step 1/4 – Checking dependencies…
+2026-04-06 22:39:34,747 INFO     launcher – All dependencies satisfied.
+2026-04-06 22:39:34,751 INFO     launcher – Step 2/4 – Starting orchestrator…
+2026-04-06 22:39:34,751 INFO     systemai_orchestrator – ============================================================
+2026-04-06 22:39:34,751 INFO     systemai_orchestrator – SystemAI Orchestrator – startup
+2026-04-06 22:39:34,751 INFO     systemai_orchestrator – ============================================================
+2026-04-06 22:39:34,752 INFO     module_loader – Discovered 226 Python files to load.
+2026-04-06 22:39:34,847 INFO     werkzeug – [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50000
+ * Running on http://10.1.0.178:50000
+2026-04-06 22:39:34,847 INFO     werkzeug – [33mPress CTRL+C to quit[0m
+2026-04-06 22:39:39,925 INFO     systemai_orchestrator – Modules loaded : 186
+2026-04-06 22:39:39,926 INFO     systemai_orchestrator – Modules failed : 39
+2026-04-06 22:39:39,926 INFO     health_monitor – HealthMonitor started (interval=30s).
+2026-04-06 22:39:39,927 INFO     systemai_orchestrator – Orchestrator ready.
+2026-04-06 22:39:39,927 INFO     launcher – Orchestrator ready: 186 loaded, 39 failed (total 226).
+2026-04-06 22:39:39,927 INFO     launcher – Step 3/4 – Building REST API server…
+2026-04-06 22:39:39,931 INFO     launcher – Step 4/4 – Starting HTTP server on port 8000…
+2026-04-06 22:39:39,935 INFO     werkzeug – [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.1.0.178:8000
+2026-04-06 22:39:39,935 INFO     werkzeug – [33mPress CTRL+C to quit[0m
+2026-04-06 22:39:42,883 INFO     werkzeug – 127.0.0.1 - - [06/Apr/2026 22:39:42] "GET /events HTTP/1.1" 200 -
