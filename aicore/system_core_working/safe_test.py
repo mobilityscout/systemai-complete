@@ -1,0 +1,1 @@
+def run(): return 'safe_test running'

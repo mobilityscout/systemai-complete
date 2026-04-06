@@ -1,0 +1,1 @@
+def run(): return 'version_test running'
